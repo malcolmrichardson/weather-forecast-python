@@ -1,7 +1,7 @@
 # Imports.
 import requests
 
-#OpenWeather API key;
+# OpenWeather API key.
 API_KEY = ''
 
 user_selected_city = ''
@@ -10,12 +10,12 @@ while (not user_selected_city):
     if (user_selected_city == ''):
         print('Please try again.')
 
-#API call;
+# API call.
 weather_data = requests.get(
     f'https://api.openweathermap.org/data/2.5/weather?q={user_selected_city}&units=imperial&APPID={API_KEY}'
 )
 
-#Display API call results;
+# Display API call results.
 if (weather_data.json()['cod'] == '404'):
     print('No city found. Please try again.')
 else:
