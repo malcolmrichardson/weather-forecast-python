@@ -37,5 +37,5 @@ Enjoy and thank you!
 
 Sample output below:
 <br><br>
-<img width="1092" alt="Screen Shot 2022-04-24 at 5 46 30 PM" src="https://user-images.githubusercontent.com/70815205/164998117-2062b91f-a674-4e98-884f-9dc6d992c715.png">
 
+<img width="1092" alt="sample_output" src="https://user-images.githubusercontent.com/70815205/164999052-f70c5d6a-5398-46cc-a0ce-e5ea36ce90a9.png">
